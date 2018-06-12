@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function callMe() {
   var lyric = "maybe";
   console.log("I just met you...");
@@ -29,3 +30,37 @@ function sayMyName() {
 
   }
 }
+=======
+function callMe() {
+  var lyric = "maybe";
+  console.log("I just met you...");
+  console.log("and this is crazy..");
+  console.log("but here's my number..");
+  console.log("so call me");
+  return lyric;
+  
+}
+
+
+function crazy() {
+  // fix the code in here:
+  thisIsCrazy();
+
+   function thisIsCrazy (){
+    console.log("hey!!!")
+  }
+}
+
+function sayMyName() {
+  // fix the code in here:
+  var name = "Cricky";
+
+  
+
+  function sayMy() {
+    console.log(name);
+    var name = "Kristin";
+  }
+  sayMy()();
+}
+>>>>>>> ce342a7aca9c83a8859329ff3d1c64c4fcfa3e0e
